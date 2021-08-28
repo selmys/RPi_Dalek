@@ -14,5 +14,5 @@ I began by gathering up the parts.
 * 2 Pittman DC servo gear motors (GM9236S019) 
 * 1 Big Easy (Sparkfun) stepper motor driver board
 * 1 Stepper motor - 42BYGHM809
-** to rotate the head
+    * to rotate the head
 * 1 Power supply with 12V 5ah Sealed Lead Acid Battery
