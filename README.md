@@ -55,4 +55,4 @@ source code for [libnmc](http://www.praecogito.com/%7Ebrudy/blue_cube/software.h
 and then using a rivet gun from Home Depot to link them all together.
 4.  Fortunately, my colleague and good friend, Andrew (master craftsman) 
 helped me with the mechanical work needed to build the Dalek. 
-![Andrew](/images/Andrew.jpg)
+![Andrew Photo](/images/Andrew.jpg)
