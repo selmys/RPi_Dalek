@@ -36,6 +36,7 @@ I began by gathering up the parts.
 * 2 LEDs (red and green) with holders
     * for the robot's eyes
 * 1 spark coil
+* 1 HC-SR04 ultrasonic sensor
 
 NOTES: 
 1.  I salvaged much of the hardware from a robot kit my college purchased
