@@ -51,4 +51,8 @@ The robot kit was the [ER1](https://web.archive.org/web/20120910134427/http://ww
 2. I found a hacked up version (by Brian Rudy) of the JR Kerr NMC DLL
 sources for use as a shared library on Linux systems. Here you can find the
 source code for [libnmc](http://www.praecogito.com/%7Ebrudy/blue_cube/software.html)
-3.  Next note. 
+3.  I made the body of the robot by cutting the steel sheet into strips
+and then using a rivet gun from Home Depot to link them all together.
+4.  Fortunately, my colleague and good friend, Andrew (master craftsman) 
+helped me with the mechanical work needed to build the Dalek. 
+![Andrew](/images/Andrew.jpg)
