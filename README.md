@@ -36,3 +36,13 @@ I began by gathering up the parts.
 * 2 LEDs (red and green) with holders
     * for the robot's eyes
 * 1 spark coil
+
+NOTES: 
+1.  I salvaged much of the hardware from a robot kit my college purchased
+from a company called [Evolution Robotics]
+(https://en.wikipedia.org/wiki/Evolution_Robotics). The robot kit was the
+[ER1] (https://web.archive.org/web/20120910134427/http://www.evolution.com/er1/)
+2. I found a hacked up version (by Brian Rudy) of the JR Kerr NMC DLL
+sources for use as a shared library on Linux systems. You can find the
+source code for [libnmc](http://www.praecogito.com/%7Ebrudy/blue_cube/software.html)
+3.  Next note. 
