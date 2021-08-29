@@ -37,6 +37,12 @@ I began by gathering up the parts.
     * for the robot's eyes
 * 1 spark coil
 * 1 HC-SR04 ultrasonic sensor
+* 20 practice golf balls (white)
+    * later cut in half
+    * later spray painted blue
+* 20 foam balls
+    * later cut in half
+    * later inserted into the golf balls
 
 NOTES: 
 1.  I salvaged much of the hardware from a robot kit my college purchased
