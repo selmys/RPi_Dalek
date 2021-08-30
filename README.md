@@ -39,6 +39,7 @@ I began by gathering up the parts.
 * 1 HC-SR04 ultrasonic sensor
 * 2 PIR motion sensors
 * 1 RPLIDAR model A1
+* 1 Raspberry Pi Camera
 * 20 practice golf balls (white)
     * later cut in half
     * later spray painted blue
@@ -74,5 +75,7 @@ could detect motion from around the robot
 7.  A spark coil could emit a spark at the robot's discretion
 8.  2 lights in the robot's head (it's eyes) could blink
 9.  The LIDAR would allow the robot to be aware of its surroundings
+10. Finally I wanted to stream the camera video with status data to the
+Internet in real time
 
 ![Dalek Video](/videos/dalek.mp4)
