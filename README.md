@@ -37,6 +37,8 @@ I began by gathering up the parts.
     * for the robot's eyes
 * 1 spark coil
 * 1 HC-SR04 ultrasonic sensor
+* 2 PIR motion sensors
+* 1 RPLIDAR model A1
 * 20 practice golf balls (white)
     * later cut in half
     * later spray painted blue
@@ -57,3 +59,19 @@ and then using a rivet gun from Home Depot to link them all together.
 helped me with the mechanical work needed to build the Dalek. 
 
 ![Andrew Photo](/images/Andrew.jpg)
+
+FUNCTIONALITY:
+In the beginning I had great ambitions. I wanted to build an autonomous
+robot with the following features:
+1.  Able to move freely in all directions
+2.  The head should rotate 90 degrees to the left and right
+3.  An ultrasonic range sensor could always sense when something is
+in front of the robot
+4.  Two motion sensors (one on the left side and one on the right)
+could detect motion from around the robot
+5.  A microphone could detect simple speech and act upon it
+6.  Speakers could output music as well as text to speech
+7.  A spark coil could emit a spark at the robot's discretion
+8.  2 lights in the robot's head (it's eyes) could blink
+9.  The LIDAR would allow the robot to be aware of its surroundings
+
