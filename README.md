@@ -75,4 +75,4 @@ could detect motion from around the robot
 8.  2 lights in the robot's head (it's eyes) could blink
 9.  The LIDAR would allow the robot to be aware of its surroundings
 
-![Dalek Video](/videos/dalek.webm)
+![Dalek Video](/videos/dalek.mp4)
