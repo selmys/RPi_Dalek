@@ -1,10 +1,11 @@
-// LED defines
-#define RED_LEFT    27
-#define GREEN_RIGHT 22
+#include <softTone.h>
+#include <wiringPi.h>
+#include "pins.h"
 
 // Control LEDs in robot head
 // 'L' left LED, 'R' right LED
 // mode 0 is OFF, 1 is ON, 2 is BLINK
+
 void LED_Control(char led, int mode) {
     switch (led) {
         case 'L':   switch (mode) {
