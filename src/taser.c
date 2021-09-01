@@ -1,8 +1,7 @@
-// Taser defines
-#define TASER 17
+#include <wiringPi.h>
+#include "pins.h"
 
-void TaserTest() {
-    SaySomething("Exterminate!");
+void FireTaser() {
     digitalWrite(TASER, HIGH);
     delay(1000);
     digitalWrite(TASER, LOW);
