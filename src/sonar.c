@@ -1,6 +1,6 @@
-// Sonar defines
-#define SONAR_ECHO  4
-#define SONAR_TRIG 11
+#include <wiringPi.h>
+#include "pins.h"
+
 // Get sonar distance in centimeters
 int GetDistance() {
     long startTime;
