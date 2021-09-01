@@ -1,3 +1,7 @@
+#include <unistd.h>
+#include <wiringPi.h>
+#include "pins.h"
+
 // Controlling the head of the Dalek
 
 // Stepper motor defines
@@ -19,35 +23,18 @@
 //   H   H   L  EIGHT
 //   H   H   H  SIXTEENTH
 
-void HeadTest() {
-    /* CLOCKWISE */
-    digitalWrite(DIRECTION, LOW);
-
+void MoveHead(int direction) {
+    switch (direction) {
+        case 0:  // CLOCKWISE  
+                digitalWrite(DIRECTION, LOW);
+                break;
+        case 1:  // COUNTERCLOCKWISE
+                digitalWrite(DIRECTION, HIGH);
+                break;
+    }
     sleep(1);
     for(int i=0;i<100;i++) {
-        printf("Step %d\n",i);
-        digitalWrite(STEP, HIGH);
-        usleep(SLEEP_TIME);
-        digitalWrite(STEP, LOW);
-        usleep(SLEEP_TIME);
-    }
-    /* COUNTERCLOCKWISE */
-    digitalWrite(DIRECTION, HIGH);
-
-    sleep(1);
-    for(int i=0;i<200;i++) {
-        printf("Step %d\n",i);
-        digitalWrite(STEP, HIGH);
-        usleep(SLEEP_TIME);
-        digitalWrite(STEP, LOW);
-        usleep(SLEEP_TIME);
-    }
-    /* CLOCKWISE */
-    digitalWrite(DIRECTION, LOW);
-
-    sleep(1);
-    for(int i=0;i<100;i++) {
-        printf("Step %d\n",i);
+//        printf("Step %d\n",i);
         digitalWrite(STEP, HIGH);
         usleep(SLEEP_TIME);
         digitalWrite(STEP, LOW);
